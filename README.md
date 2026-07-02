@@ -1,51 +1,53 @@
-# 🧮 Calculadora CLI
+# 🧮 CLI Calculator
 
-Uma aplicação de linha de comando (CLI) desenvolvida em Dart, projetada para realizar operações matemáticas diretamente pelo terminal de forma simples e eficiente.
-
----
-
-## 🚀 Funcionalidades
-
-* **Operações Matemáticas**: Execução de cálculos diretamente via console.
-* **Interface CLI**: Interação limpa e direta com o usuário através da linha de comando.
-* **Código Estruturado**: Separação clara entre a lógica de execução e regras de negócio.
+A Command-Line Interface (CLI) application developed in Dart, designed to perform mathematical operations directly from the terminal in a simple and efficient way.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Features
 
-O projeto foi construído utilizando o ecossistema Dart e as seguintes dependências:
-
-* **[Dart SDK](https://dart.dev/)**: `^3.11.1`
-* **[path](https://pub.dev/packages/path)**: Utilizado para a manipulação segura de caminhos de arquivos do sistema.
-* **[lints](https://pub.dev/packages/lints)**: Ferramenta de análise estática para garantir as boas práticas de desenvolvimento em Dart.
-* **[test](https://pub.dev/packages/test)**: Framework robusto para a execução de testes automatizados.
+- ➕ **Mathematical Operations:** Perform calculations directly through the command line.
+- 🖥️ **CLI Interface:** Clean and straightforward user interaction via the terminal.
+- 📦 **Well-Structured Code:** Clear separation between the application logic and business rules.
 
 ---
 
-## 📁 Estrutura do Projeto
+## 🛠️ Technologies Used
 
-O projeto segue a estrutura padrão de uma aplicação Dart:
+This project was built using the Dart ecosystem and the following dependencies:
+
+- **[Dart SDK](https://dart.dev/):** `^3.11.1`
+- **[path](https://pub.dev/packages/path):** Used for safe and cross-platform file path manipulation.
+- **[lints](https://pub.dev/packages/lints):** Official Dart static analysis tool to enforce coding best practices.
+- **[test](https://pub.dev/packages/test):** Robust framework for automated unit testing.
+
+---
+
+## 📁 Project Structure
+
+The project follows the standard Dart application structure:
 
 ```text
 ├── bin/
-│   └── calculadora.dart     # Ponto de entrada do aplicativo (função main)
+│   └── calculadora.dart      # Application entry point (main function)
 ├── lib/
-│   └── calculadora.dart     # Lógica central e funções da calculadora
+│   └── calculadora.dart      # Core calculator logic and functions
 ├── test/
-│   └── calculadora_test.dart# Testes unitários das operações
-├── pubspec.yaml             # Arquivo de configuração e dependências
-└── README.md                # Documentação do projeto
+│   └── calculadora_test.dart # Unit tests for calculator operations
+├── pubspec.yaml              # Project configuration and dependencies
+└── README.md                 # Project documentation
+```
+
 ---
 
-## 👨‍💻 Desenvolvedor
+## 👨‍💻 Developer
 
 **Nicolas**
 
-Desenvolvedor Mobile em formação, estudando Dart e Flutter e buscando criar aplicações modernas e escaláveis.
+Aspiring Mobile Developer passionate about Dart and Flutter, focused on building modern, scalable, and high-quality applications.
 
-GitHub: https://github.com/mine081
+**GitHub:** https://github.com/mine081
 
 ---
 
-⭐ Se gostou do projeto, deixe uma estrela no repositório!
+⭐ If you enjoyed this project, don't forget to leave a star on the repository!
